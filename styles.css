@@ -1,0 +1,153 @@
+
+*{
+    margin:0px;
+    padding:0px;
+    overflow-x: hidden;
+}
+body{
+    font-family: sans-serif;
+    text-align: center;
+    overflow-x: hidden;
+}
+/* Top section */
+.navBrand{
+    font-size: 30px;
+}
+.navList{
+    margin: 10px;
+}
+.topSection{
+    background-color:#282C34;
+    color:#fff;
+}
+/* Hosting part */
+.hostingPart{
+    margin-top: 30px;
+}
+.heading{
+    text-align: center;
+    font-size: 52px;
+    margin-bottom: 30px;  
+}
+.btnRow{
+    display: flex;
+    justify-content: center;
+    align-items: center;;
+}
+
+.btns button{
+    font-size: 25px;
+    padding:10px 45px;
+    border-radius: 0px;
+    margin:10px;
+}
+.hostingPart h4{
+    text-align: center;
+    font-size: 22px;
+    color: orange;
+    margin:20px;
+
+}
+/* Quiz process */
+.process .icon{
+    font-size: 45px;
+    color:#1CD8E4;
+}
+
+.process{
+    padding-bottom: 3px;
+}
+.processTask{
+    margin-top:17px;
+}
+.processTask p{
+    padding:0px 30px;
+}
+/* pricing section */
+.pricingPart {
+    margin-top:20px;
+}
+.pricingPart h5{
+    text-decoration: underline;  
+}
+.pricingPart ul{
+    padding-left: 0px;  
+}
+.pricingPart li{
+    list-style-type: none;
+    text-align: center;
+}
+/* Footer section */
+footer{
+    background-color: #D9D9D9;
+}
+footer .copyRight{
+    text-align: left;
+}
+footer .copyRight:nth-child(2){
+    text-align: right;
+}
+footer .copyRight span{
+    margin:5px 10px;
+}
+
+@media (min-width:990px) {
+    .arrow::after{
+        position: absolute;
+        content:"";
+        width:155px;
+        height:1.5px;
+        margin-top: -30px;
+        background-color: #000;
+        margin-left:10px
+    }
+   .arrow::before{
+        position: absolute;
+        content:"";
+        margin-left:219px;
+        margin-top:-36.5px;
+        border:7px solid transparent; 
+        border-left-color: #000;
+    }
+    
+}
+@media (min-width:1200px) {
+    .arrow::after{
+        position: absolute;
+        content:"";
+        width:200px;
+        height:1.5px;
+        margin-top: -30px;
+        background-color: #000;
+        margin-left:10px;
+    }
+   .arrow::before{
+        position: absolute;
+        content:"";
+        margin-left:264.8px;
+        margin-top:-36px;
+        border:7px solid transparent; 
+        border-left-color: #000;
+    }
+    
+}
+@media (min-width:1390px) {
+    .arrow::after{
+        position: absolute;
+        content:"";
+        width:227px;
+        height:1.5px;
+        margin-top: -30px;
+        background-color: #000;
+        margin-left:13px;
+    }
+   .arrow::before{
+        position: absolute;
+        content:"";
+        margin-left:294px;
+        margin-top:-36px;
+        border:7px 8px solid transparent; 
+        border-left-color: #000;
+    }
+    
+}
